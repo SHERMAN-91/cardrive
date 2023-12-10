@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+.cartQuestion {
+    background: cadetblue;
+    margin: 10px 0;
+    padding: 10px;
+}
+p.quesCount {
+    width: max-content;
+    padding: 5px;
+    background: cornsilk;
+    border-radius: 6px;
+}
+.quesSec {
+    background: whitesmoke;
+    padding: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.quesSec p{
+    padding: 10px;
+}
+.answerBox {
+    background: cadetblue;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+}
+.answerDiv {
+    border-bottom: 1px solid white;
+    padding: 10px;
+    transition: .4s;
+
+    
+}
+.answerDiv:not(.correctBox, .wrongA):hover{
+    background-color: white;
+    color: black;
+}
+.correctBox{
+    background-color: lightgreen;
+    color: black;
+}
+.wrongA{
+    background-color: rgba(255, 0, 0, 0.678);
+}
+#testBut{
+
+    padding: 5px;
+    border-radius: 5px;
+}
+#goUp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+}
+.boxSec{
+    display: none;
+}
+.activeSec{
+    display: block;
+}
+.boxMenu {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+}
+.boxMenu i {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: black;
+    border-radius: 3px;
+}
+.boxMenu>div {
+    position: fixed;
+    right: -150px;
+    background: lightgray;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px 0 0 10px;
+    transition: .4s;
+}
+.boxMenu>div >button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.boxList.show{
+    right:0;
+}
+.skiptranslate.goog-te-gadget > span {
+    display: none;
+}
+.goog-te-gadget {
+    height: 35px;
+    color: transparent !important;
+}
+iframe#\:1\.container{
+    display: none;
+}
+select.goog-te-combo{
+    height: 35px;
+    font-size: 20px;
+}
+body{
+    top: 0 !important;
+}
+div#google_translate_element {
+    top: 0;
+}
