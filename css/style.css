@@ -118,5 +118,16 @@ body{
     top: 0 !important;
 }
 div#google_translate_element {
+    position: fixed;
     top: 0;
+    left: 50%;
+    transform: translate(-50%, 0px);
 }
+#goog-gt-tt{
+    display: none !important;
+}
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q {
+    background-color:transparent !important;
+    box-shadow: none  !important;
+    border: none !important;
+  }
