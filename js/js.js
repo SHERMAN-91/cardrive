@@ -1,3 +1,6 @@
+
+
+
 function test(el){
     if($(el).text()=="Test"){
         $(el).text("Cancel");
@@ -65,3 +68,6 @@ function shoeSec(el){
         $($(".activeSec").find(".quesCount")[i]).text((i+1)+"/"+($(".activeSec").find(".quesCount").length ))
     }
 }
+$("font").on("mouseover",function(){
+    $(this).parent().text($(this).tex());
+})
