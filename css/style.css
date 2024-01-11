@@ -12,6 +12,8 @@ p.quesCount {
     background: cornsilk;
     border-radius: 6px;
 }
+
+
 .quesSec {
     background: whitesmoke;
     padding: 0px;
@@ -28,11 +30,11 @@ p.quesCount {
     color: white;
 }
 .answerDiv {
-    border-bottom: 1px solid white;
+    border: 2px solid #fcfbfb;
     padding: 10px;
     transition: .4s;
-
-    
+    margin: 5px 0;
+    border-radius: 5px;
 }
 
 .correctBox{
