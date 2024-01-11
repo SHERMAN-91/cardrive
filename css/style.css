@@ -34,10 +34,7 @@ p.quesCount {
 
     
 }
-.answerDiv:not(.correctBox, .wrongA):hover{
-    background-color: white;
-    color: black;
-}
+
 .correctBox{
     background-color: lightgreen;
     color: black;
