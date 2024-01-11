@@ -12,8 +12,17 @@ function test(el){
         $(".correctAnswer").addClass("correctBox").removeClass("correctAnswer");
         $(".wrongA").removeClass("wrongA");
     }
-    
+
+    var answerBox = document.getElementsByClassName('answerBox');
+    for (let i2 = 0; i2 < answerBox.length; i2++) {
+        const element = answerBox[i2];
+        for (var i = element.children.length; i >= 0; i--) {
+            element.appendChild(element.children[Math.floor(Math.random() * i)]);
+        }
+    }
 }
+
+
 function answer(el){
     $(el).attr("onclick","")
     $(el).siblings().attr("onclick","")
